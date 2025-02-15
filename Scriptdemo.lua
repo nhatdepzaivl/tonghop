@@ -47,3 +47,21 @@ AddButton(Tab1o, {
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()
 end
 })
+AddButton(Tab1o, {
+     Name = "redz hub",
+    Callback = function()
+     local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+end
+})
+AddButton(Tab1o, {
+     Name = "redz hub",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+end
+})
+
