@@ -64,4 +64,35 @@ AddButton(Tab1o, {
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
 end
 })
+AddButton(Tab1o, {
+     Name = "cụt tay hub",
+    Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/diemquy/CutTayHub/refs/heads/main/Cuttayhubreal.lua'))()
+end
+})
+AddButton(Tab1o, {
+     Name = "rubuhu hub",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/rubuhubv2"))()
+end
+})
+AddButton(Tab1o, {
+     Name = "hoho hub",
+    Callback = function()
+    _G.HohoVersion = "v4"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+end
+})
+AddButton(Tab1o, {
+     Name = "farm rương tự động",
+    Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/TBoyRoblox727/TBoyRobloxYT/refs/heads/main/ChestV2.lua"))()
 
+end
+})
+AddButton(Tab1o, {
+     Name = "script zisroblox(made in vn)",
+    Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRobloxV2"))()
+end
+})
