@@ -59,7 +59,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
 end
 })
 AddButton(Tab1o, {
-     Name = "redz hub",
+     Name = "astral",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
 end
