@@ -30,7 +30,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
 
 ------ Tab
-     local Tab1o = MakeTab({Name = "blox kid tổng hợp"})
+     local Tab1o = MakeTab({Name = "🍇blox kid tổng hợp"})
 
 ------- BUTTON
 
