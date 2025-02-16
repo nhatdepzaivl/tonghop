@@ -2,8 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Godna tổng hợp v1.1",
-         Animation = "Youtube: godna studio"
+         Title = "Godna tổng hợp v1.5",
+         Animation = "godna studio"
          },
         Key = {
         KeySystem = false,
@@ -32,7 +32,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "🍇blox kid tổng hợp"})
      local Tab2o = MakeTab({Name = "🐟fisch"})
-     local Tab3o = MakeTab({Name = "script khác"})
+     local Tab3o = MakeTab({Name = "⚙️script khác"})
 ------- BUTTON
 
 AddButton(Tab1o, {
