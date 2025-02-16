@@ -35,13 +35,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab3o = MakeTab({Name = "script khác"})
 ------- BUTTON
 
-    AddButton(Tab1o, {
-     Name = "hop sever indra",
-    Callback = function()
-      getgenv().Team = "Pirates"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/AutoDoughking-Rip-byTeddy"))()
-end
-})
 AddButton(Tab1o, {
      Name = "quantum hub",
     Callback = function()
@@ -69,12 +62,6 @@ AddButton(Tab1o, {
      Name = "cụt tay hub",
     Callback = function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/diemquy/CutTayHub/refs/heads/main/Cuttayhubreal.lua'))()
-end
-})
-AddButton(Tab1o, {
-     Name = "rubuhu hub",
-    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/rubuhubv2"))()
 end
 })
 AddButton(Tab1o, {
