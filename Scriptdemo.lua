@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Godna tổng hợp v1.5",
+         Title = "thank for use script",
          Animation = "welcome to scripy"
          },
         Key = {
