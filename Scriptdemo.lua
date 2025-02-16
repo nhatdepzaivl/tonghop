@@ -96,3 +96,12 @@ AddButton(Tab1o, {
    loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRobloxV2"))()
 end
 })
+AddButton(Tab1o, {
+     Name = "xero hub",
+    Callback = function()
+   getgenv().Team = "Marines"
+getgenv().Hide_Menu = false
+getgenv().Auto_Execute = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))(
+end
+})
