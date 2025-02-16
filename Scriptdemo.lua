@@ -31,7 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
 ------ Tab
      local Tab1o = MakeTab({Name = "🍇blox kid tổng hợp"})
-
+     local Tab1o = MakeTab({Name = "script khác"})
 ------- BUTTON
 
     AddButton(Tab1o, {
@@ -102,6 +102,12 @@ AddButton(Tab1o, {
    getgenv().Team = "Marines"
 getgenv().Hide_Menu = false
 getgenv().Auto_Execute = false
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))(
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+end
+})
+AddButton(Tab2o, {
+     Name = "script admin",
+    Callback = function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end
 })
