@@ -125,3 +125,9 @@ getgenv().AutoLoad = false
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))() 
 end
 })
+AddButton(Tab1o, {
+     Name = "min gaming",
+    Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinCE"))()
+end
+})
