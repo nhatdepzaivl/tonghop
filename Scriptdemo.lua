@@ -111,3 +111,9 @@ AddButton(Tab2o, {
   loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end
 })
+AddButton(Tab2o, {
+     Name = "script fly",
+    Callback = function()
+  loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-script-v3-16742"))()
+end
+})
