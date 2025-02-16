@@ -117,3 +117,11 @@ AddButton(Tab2o, {
   loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))() 
 end
 })
+AddButton(Tab1o, {
+     Name = "w azure",
+    Callback = function()
+  getgenv().Team = "Pirates"
+getgenv().AutoLoad = false 
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))() 
+end
+})
