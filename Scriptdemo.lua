@@ -51,7 +51,7 @@ AddButton(Tab1o, {
      Name = "redz hub",
     Callback = function()
      local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
+  JoinTeam = "Marines"; -- Pirates/Marines
   Translator = true; -- true/false
 }
 
