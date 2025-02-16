@@ -100,13 +100,13 @@ AddButton(Tab3o, {
 end
 })
 AddButton(Tab3o, {
-     Name = "script fly",
+     Name = "script bay",
     Callback = function()
   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-script-v3-16742"))()
 end
 })
 AddButton(Tab3o, {
-     Name = "anti afk",
+     Name = "script chống bị kick mỗi 20p",
     Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/brosula123/Anti-afk/main/Bl%C3%B8xzScript"))() 
 end
