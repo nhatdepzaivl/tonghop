@@ -31,7 +31,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
 ------ Tab
      local Tab1o = MakeTab({Name = "🍇blox kid tổng hợp"})
-     local Tab2o = MakeTab({Name = "script khác"})
+     local Tab2o = MakeTab({Name = "🐟fisch"})
+     local Tab3o = MakeTab({Name = "script khác"})
 ------- BUTTON
 
     AddButton(Tab1o, {
@@ -105,21 +106,27 @@ getgenv().Auto_Execute = false
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
 end
 })
-AddButton(Tab2o, {
+AddButton(Tab3o, {
      Name = "script admin",
     Callback = function()
   loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end
 })
-AddButton(Tab2o, {
+AddButton(Tab3o, {
      Name = "script fly",
     Callback = function()
   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-script-v3-16742"))()
 end
 })
-AddButton(Tab2o, {
+AddButton(Tab3o, {
      Name = "anti afk",
     Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/brosula123/Anti-afk/main/Bl%C3%B8xzScript"))() 
+end
+})
+AddButton(Tab2o, {
+     Name = "speed hub",
+    Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))() 
 end
 })
