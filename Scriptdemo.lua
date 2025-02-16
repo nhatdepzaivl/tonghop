@@ -117,3 +117,9 @@ AddButton(Tab2o, {
   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-script-v3-16742"))()
 end
 })
+AddButton(Tab2o, {
+     Name = "anti afk",
+    Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/brosula123/Anti-afk/main/Bl%C3%B8xzScript"))() 
+end
+})
