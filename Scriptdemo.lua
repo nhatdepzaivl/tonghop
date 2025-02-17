@@ -81,7 +81,7 @@ end
 AddButton(Tab1o, {
      Name = "script zisroblox(made in vn)",
     Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRobloxV2"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRb8"))()
 end
 })
 AddButton(Tab1o, {
@@ -126,7 +126,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
 end
 })
 AddButton(Tab1o, {
-     Name = "min gaming",
+     Name = "min gaming(MADE IN VN)",
     Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinCE"))()
 end
