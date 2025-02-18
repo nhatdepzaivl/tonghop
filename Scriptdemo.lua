@@ -131,3 +131,9 @@ AddButton(Tab1o, {
   loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinCE"))()
 end
 })
+AddButton(Tab3o, {
+     Name = "script bay(cho pc)",
+    Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Jfdedit3/Jfdedit3/main/Fly%20script%20by%20chatgpt"))()
+end
+})
