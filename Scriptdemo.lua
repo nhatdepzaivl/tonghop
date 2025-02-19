@@ -59,9 +59,9 @@ AddButton(Tab1o, {
 end
 })
 AddButton(Tab1o, {
-     Name = "cụt tay hub",
+     Name = "cụt tay hub(script update)",
     Callback = function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/diemquy/CutTayHub/refs/heads/main/Cuttayhubreal.lua'))()
+    Loadstring(game:HttpGet("https://raw.githubusercontent.com/diemquy/CutTayHub/refs/heads/main/Cuttayhub-mizu.lua"))()
 end
 })
 AddButton(Tab1o, {
@@ -135,5 +135,19 @@ AddButton(Tab3o, {
      Name = "script bay(cho pc)",
     Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Jfdedit3/Jfdedit3/main/Fly%20script%20by%20chatgpt"))()
+end
+})
+AddButton(Tab3o, {
+     Name = "script auto click",
+    Callback = function()
+  getgenv().key = "Hostile"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/The-telligence/main/MC%20KSystem%202"))()
+end
+})
+AddButton(Tab1o, {
+     Name = "speed hub",
+    Callback = function()
+  getgenv().key = "Hostile"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
 end
 })
