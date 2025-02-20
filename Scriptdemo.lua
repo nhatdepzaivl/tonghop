@@ -151,3 +151,10 @@ AddButton(Tab1o, {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
 end
 })
+AddButton(Tab1o, {
+     Name = "Đạt THG hub",
+    Callback = function()
+  getgenv().key = "Hostile"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV1"))()
+end
+})
